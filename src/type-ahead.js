@@ -383,8 +383,3 @@ TypeAheadList.prototype.scroll = function () {
       list.scrollTop = item.offsetTop;
   }
 };
-
-/**
- * Export TypeAhead for Browserify
- */
-module.exports = TypeAhead
